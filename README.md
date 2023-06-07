@@ -64,4 +64,4 @@ model.
 1. The original source of dataset is from Ministry of Health of Malaysia where you can get from here https://github.com/MoH-Malaysia/covid19-public
 2. For creating tensorboard, I refer tutorial from https://www.tensorflow.org/tensorboard/get_started
 3. Regarding the tensorflow API that I used in my project, I always refer to this documentation https://www.tensorflow.org/api_docs/python/tf/all_symbols
-framework,method
+
