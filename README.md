@@ -53,7 +53,7 @@ model.
 ![model_performance2](https://github.com/dalila28/covid19-case-prediction/blob/main/images/model_performance2.png)
 
 3. Tensorboard snapshot showing graph of MSE
-![tensorboard](https://github.com/dalila28/covid19-case-prediction/assets/135775153/43f140ac-c979-42e4-b436-66d4be2d1b0d)
+![tensorboard](https://github.com/dalila28/covid19-case-prediction/blob/main/images/tensorboard.png)
 
 
 4. Figure below showing the matplotlib graph comparison between actual & predicted result of covid-19 case in Malaysia based on my deep learning project. From the graph we can see that the predicted line is following the curve of actual line which as for my observation I can say that the result is good eventhough it not following correctly the spike of curve. If we want to improve the result, I think we can increase number of epochs so model has more opportunities to learn from the data and adjust its parameters to improve performance.
