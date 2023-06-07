@@ -45,23 +45,23 @@ network to make prediction on new Covid-19 cases in Malaysia.
 1. The architecture model that is used in this project is **_Long Short Term Memory(LSTM)_** ,number of nodes is 64 nodes & window size is 30 LSTM, Dense, and Dropout layers have been implemented in the
 model.
 
-![model_architecture](https://github.com/dalila28/covid19-case-prediction/assets/135775153/a4e6edad-6be8-4bc9-b954-9bd18c550acb)
+![model_architecture](https://github.com/dalila28/covid19-case-prediction/blob/main/images/model_architecture.png)
 
 
 2. Below are the snapshot of the model performance under 100 epochs which **_Mean Squared Error(MSE)_** as loss & **_Mean Absolute Percentage Error (MAPE)_** as metrics
-![model_performance1](https://github.com/dalila28/covid19-case-prediction/assets/135775153/90e47889-be52-4773-8119-a2bfc4915d0a)
-![model_performance2](https://github.com/dalila28/covid19-case-prediction/assets/135775153/60274f15-60d8-4dc4-8818-e5f24ac688be)
+![model_performance1](https://github.com/dalila28/covid19-case-prediction/blob/main/images/model_performance1.png)
+![model_performance2](https://github.com/dalila28/covid19-case-prediction/blob/main/images/model_performance2.png)
 
 3. Tensorboard snapshot showing graph of MSE
 ![tensorboard](https://github.com/dalila28/covid19-case-prediction/assets/135775153/43f140ac-c979-42e4-b436-66d4be2d1b0d)
 
 
 4. Figure below showing the matplotlib graph comparison between actual & predicted result of covid-19 case in Malaysia based on my deep learning project. From the graph we can see that the predicted line is following the curve of actual line which as for my observation I can say that the result is good eventhough it not following correctly the spike of curve. If we want to improve the result, I think we can increase number of epochs so model has more opportunities to learn from the data and adjust its parameters to improve performance.
-![actual_vs_predicted](https://github.com/dalila28/covid19-case-prediction/assets/135775153/b3da4626-c7c0-4a57-837c-b2e6221da0b2)
+![actual_vs_predicted](https://github.com/dalila28/covid19-case-prediction/blob/main/images/actual_vs_predicted.png)
 
 
 ### 4. Credits
-1. The original source of dataset is from Ministry of Health of Malaysia where you can get from here https://github.com/MoH-Malaysia/covid19-public
+1. The data on the COVID-19 epidemic in Malaysia is sourced from the official repository, https://github.com/MoH-Malaysia/covid19-public which is powered by CPRC, CPRC Hospital System, MKAK, and MySejahtera.
 2. For creating tensorboard, I refer tutorial from https://www.tensorflow.org/tensorboard/get_started
 3. Regarding the tensorflow API that I used in my project, I always refer to this documentation https://www.tensorflow.org/api_docs/python/tf/all_symbols
 
